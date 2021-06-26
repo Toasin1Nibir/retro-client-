@@ -1,0 +1,65 @@
+.singleCard{
+    cursor:pointer;
+    border: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all .3s;
+    overflow: hidden;
+}
+.singleCard:hover{
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+}
+
+.card-img{
+    transition: all .3s;
+}
+.singleCard:hover .card-img{
+    transform: scale(1.05);
+}
+.category{
+    display: inline-block;
+    padding: 8px;
+    background: #F1FFF0;
+    color: #35BA26;
+}
+.category p{
+    margin: 0;
+}
+
+.card-title{
+    font-size: 24px;
+}
+
+.card-description{
+    font-size: 16px;
+    color: #8B949D;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.card-footer h5{
+    font-size: 16px;
+    margin: 0;
+}
+
+.card-footer p{
+    font-size: 16px;
+    margin: 0;
+    color: #b3b9be;
+}
+
+@media only screen and (max-width: 991px) {
+    .dropdown-item{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dropdown-item{
+        font-size: 16px;
+    }
+}
